@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".TaskDetail"
+    tools:showIn="@layout/activity_task_detail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <mehdi.sakout.fancybuttons.FancyButton
+                    android:id="@+id/reject"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingBottom="13sp"
+                    android:paddingLeft="45sp"
+                    android:paddingRight="45sp"
+                    android:paddingTop="13sp"
+                    fancy:fb_borderColor="@color/red"
+                    fancy:fb_borderWidth="1sp"
+                    fancy:fb_defaultColor="#ffffff"
+                    fancy:fb_focusColor="#fff"
+                    fancy:fb_ghost="true"
+                    fancy:fb_radius="50sp"
+                    fancy:fb_text="REJECT"
+                    fancy:fb_textColor="@color/red"
+                    fancy:fb_textFont="OpenSans-Regular.ttf"
+                    fancy:fb_textSize="15sp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <mehdi.sakout.fancybuttons.FancyButton
+                    android:id="@+id/accept"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="13sp"
+                    android:paddingLeft="60sp"
+                    android:paddingRight="60sp"
+                    android:paddingTop="13sp"
+                    fancy:fb_borderColor="@color/green"
+                    fancy:fb_borderWidth="1sp"
+                    fancy:fb_defaultColor="#ffffff"
+                    fancy:fb_focusColor="#fff"
+                    fancy:fb_ghost="true"
+                    fancy:fb_radius="50sp"
+                    fancy:fb_text="ACCEPT"
+                    fancy:fb_textColor="@color/green"
+                    fancy:fb_textFont="OpenSans-Regular.ttf"
+                    fancy:fb_textSize="15sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:layout_margin="@dimen/text_margin"
+            android:textStyle="bold"
+            android:text="TITLE"
+            />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin" />
+
+
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "168080809634",
+    "firebase_url": "https://hora-d523e.firebaseio.com",
+    "project_id": "hora-d523e",
+    "storage_bucket": "hora-d523e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168080809634:android:7e578e257e967bd3",
+        "android_client_info": {
+          "package_name": "com.samapps.horachallenge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168080809634-4nsoumcpdkbg9jk9a4fjhben4s2tm8i3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHaOvQbx3Tanx4MVeKu0mYJ-riN4MvpN0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
